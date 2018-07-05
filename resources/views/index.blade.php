@@ -20,34 +20,33 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
-    <meta name="keywords" content="bootstrap kit, ui kit, psd kit, html kit, get shit done, get shit done pro, get shit done kit, creative tim, bootstrap restyled components, beautiful bootstrap, startup design, bootstrap template, bootstrap kit, cards, profile cards, products cards, presentation page, landing page, ecommerce design, blog design, startup design, company design, jquery plugins, responsive charts ">
-    <meta name="description" content="Start designing and developing faster.  Give your project a fresh look and choose from the collection of beautiful pre-defined components to create the website that meets your needs. ">
+    <meta name="keywords" content="e-commerce, clothes, best offers">
+    <meta name="description" content="Our-Town incredible product offers.">
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Get Shit Done Kit Pro by Creative Tim">
-    <meta itemprop="description" content="Start designing and developing faster.  Give your project a fresh look and choose from the collection of beautiful pre-defined components to create the website that meets your needs.">
-    <meta itemprop="image" content="http://s3.amazonaws.com/creativetim_bucket/products/26/opt_gsdp_thumbnail.jpg">
+    <meta itemprop="name" content="Our Town">
+    <meta itemprop="description" content="Our-Town incredible product offers.">
+    {{--<meta itemprop="image" content="http://s3.amazonaws.com/creativetim_bucket/products/26/opt_gsdp_thumbnail.jpg">--}}
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="product">
     <meta name="twitter:site" content="@creativetim">
-    <meta name="twitter:title" content="Get Shit Done Kit Pro by Creative Tim">
-    <meta name="twitter:description" content="Start designing and developing faster.  Give your project a fresh look and choose from the collection of beautiful pre-defined components to create the website that meets your needs.">
+    <meta name="twitter:title" content="Our-Town">
+    <meta property="og:description" content="Our-Town incredible product offers."/>
     <meta name="twitter:creator" content="@creativetim">
-    <meta name="twitter:image" content="http://s3.amazonaws.com/creativetim_bucket/products/26/opt_gsdp_thumbnail.jpg">
+    {{--<meta name="twitter:image" content="http://s3.amazonaws.com/creativetim_bucket/products/26/opt_gsdp_thumbnail.jpg">--}}
     <meta name="twitter:data1" content="Bootstrap HTML & PSD Kit">
     <meta name="twitter:label1" content="Product Type">
     <meta name="twitter:data2" content="$39">
     <meta name="twitter:label2" content="Price">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="Get Shit Done Kit Pro by Creative Tim" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://gsdk.creative-tim.com/ecommerce" />
-    <meta property="og:image" content="http://s3.amazonaws.com/creativetim_bucket/products/26/opt_gsdp_thumbnail.jpg" />
-    <meta property="og:description" content="Start designing and developing faster.  Give your project a fresh look and choose from the collection of beautiful pre-defined components to create the website that meets your needs."
-    />
-    <meta property="og:site_name" content="Creative Tim" />
+    <meta property="og:title" content="Our Town" />
+    <meta property="og:type" content="e-commerce" />
+    <meta property="og:url" content="https://our-town.herokuapp.com" />
+    {{--<meta property="og:image" content="http://s3.amazonaws.com/creativetim_bucket/products/26/opt_gsdp_thumbnail.jpg" />--}}
+    <meta property="og:description" content="Our-Town incredible product offers."/>
+    <meta property="og:site_name" content="Our Town" />
 
     <!-- Include manifest file in the page -->
     <link rel="manifest" href="notification/manifest.json">
