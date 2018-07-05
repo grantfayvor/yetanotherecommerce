@@ -132,6 +132,9 @@
                         </div>
                         <div class="submit">
                             <button type="submit" class="btn btn-info btn-fill pull-right">Register</button>
+                            <a href="/login">Already have an account</a>
+                            <a href="{{url('/redirect')}}" class="btn btn-primary">
+                                <span class="fa fa-facebook"></span> Login with Facebook</a>
                         </div>
                     </form>
                 </div>
