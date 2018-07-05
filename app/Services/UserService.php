@@ -44,12 +44,14 @@ class UserService
         $phoneNumber = $request->phoneNumber;
         $password = $request->password;
         $email = $request->email;
+        $size = $request->size;
         $user = new User();
         $user->setName($name);
         $user->setPassword(Hash::make($password));
         $user->setEmail($email);
         $user->setPhoneNumber($phoneNumber);
         $user->setAccountType("USER");
+        $user->setSize($size);
         if ($this->repository->findOneByParam('email', $user->getEmail()) != null) {
             return response()->json(['message' => 'user already exists'], 403);
         } else {

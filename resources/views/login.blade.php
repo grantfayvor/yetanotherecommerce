@@ -94,7 +94,7 @@
     <div class="wrapper">
         <div class="section">
             <div class="container tim-container">
-                <h2 class="section-title">OKIKE</h2>
+                <h2 class="section-title">Our Town</h2>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <p>

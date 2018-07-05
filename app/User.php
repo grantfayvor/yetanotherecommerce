@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'phone_number', 'admin', 'notification_id',
+        'name', 'email', 'password', 'phone_number', 'admin', 'notification_id', 'size',
     ];
 
     /**
@@ -32,6 +32,7 @@ class User extends Authenticatable
     private $password;
     private $phoneNumber;
     private $admin;
+    private $size;
 
     public function getName()
     {
@@ -88,6 +89,24 @@ class User extends Authenticatable
         }
     }
 
+    /**
+     * @return mixed
+     */
+    public function getSize()
+    {
+        return $this->size;
+    }
+
+    /**
+     * @param mixed $size
+     */
+    public function setSize($size)
+    {
+        $this->size = $size;
+    }
+
+
+
     public function getAttributesArray()
     {
         return [
@@ -95,7 +114,8 @@ class User extends Authenticatable
             'email' => $this->email,
             'password' => $this->password,
             'phone_number' => $this->phoneNumber,
-            'admin' => $this->admin
+            'admin' => $this->admin,
+            'size' => $this->size
         ];
     }
 }

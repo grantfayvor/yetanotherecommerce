@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('phone_number')->nullable();
             $table->boolean('admin')->default(false);
             $table->string('password');
+            $table->string('size', 10)->nullable();
             $table->string('notification_id')->nullable();
             $table->rememberToken();
             $table->timestamps();

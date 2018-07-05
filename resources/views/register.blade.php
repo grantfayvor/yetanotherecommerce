@@ -94,7 +94,7 @@
     <div class="wrapper">
         <div class="section">
             <div class="container tim-container">
-                <h2 class="section-title">OKIKE</h2>
+                <h2 class="section-title">Our - Town</h2>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <p>
@@ -111,6 +111,16 @@
                             <div class="form-group">
                                 <label for="email">Email address</label>
                                 <input type="email" name="email" class="form-control" id="email" placeholder="Your personal email address" />
+                            </div>
+                            <div class="form-group">
+                                <label for="size">Size</label>
+                                <select id="size" name="size" class="form-control">
+                                    <option value="" selected disabled>Size e.g S, M, L, XL</option>
+                                    <option value="S" selected>S</option>
+                                    <option value="M" selected>M</option>
+                                    <option value="L" selected>L</option>
+                                    <option value="XL" selected>XL</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone</label>
