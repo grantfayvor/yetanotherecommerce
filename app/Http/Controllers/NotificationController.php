@@ -33,7 +33,7 @@ class NotificationController extends Controller
                 'title' => $product->name,
                 'message' => $product->details,
                 'icon' => $product->image_location,
-                'notificationTag' => $product->brand . '_' .$product->name,
+                'tag' => $product->brand . '_' .$product->name,
                 'redirectURL' => '/?product=' .$product->name
             ]
         ];

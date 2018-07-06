@@ -151,12 +151,13 @@
     </nav>
 
     <div class="wrapper">
-        <div class="parallax filter-black" style="height: 350px!important;">
+        <div class="parallax filter-black" style="height: 400px!important;">
+        <!-- <div class="parallax filter-black"> -->
             <div class="parallax-image">
                 <img src="assets/img/examples/ecommerce.jpg">
             </div>
             <div class="small-info">
-                <h1>Brace yourself!</h1>
+                <h1 style="font-size:80px">Brace yourself!</h1>
                 <h3>25% Off and Free global delivery for all products</h3>
             </div>
         </div>
