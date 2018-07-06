@@ -194,7 +194,7 @@
                                                 <h6 class="panel-title">
                                                     <a href="javascript:void(0)" data-ng-click="getAllByCategory({{ $category->id }})" class="collapsed">
                                                         {{ $category->name}}
-                                                        <i class="fa fa-caret-up pull-right"></i>
+                                                        <!-- <i class="fa fa-caret-up pull-right"></i> -->
                                                     </a>
                                                 </h6>
                                             </div>
@@ -206,7 +206,7 @@
                                                 <h6 class="panel-title">
                                                     <a href="javascript:void(0)" data-ng-click="getAllByCategory({{ $category->id }})">
                                                         {{ $category->name}}
-                                                        <i class="fa fa-caret-up pull-right"></i>
+                                                        <!-- <i class="fa fa-caret-up pull-right"></i> -->
                                                     </a>
                                                 </h6>
                                             </div>
